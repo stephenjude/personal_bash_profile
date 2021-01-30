@@ -1,4 +1,4 @@
-## personal_bash_profile
+## My Personal Bash  Command Alias
 A collection of [alias](https://github.com/stephenjude/personal_bash_profile/blob/main/.bash_profile) that shortens the bash commands I use daily during development.
 
 
