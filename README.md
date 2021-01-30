@@ -1,5 +1,5 @@
 ## personal_bash_profile
-This a collection of alias thats shortens bash commands that aids my development life.
+A collection of [alias](https://github.com/stephenjude/personal_bash_profile/blob/main/.bash_profile) that shortens the bash commands I use daily during development.
 
 
 #### `artisan` : Alias to `php artisan`. Example:
