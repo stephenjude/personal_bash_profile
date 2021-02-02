@@ -11,5 +11,5 @@ composer-link() {
 }
 
 install-dev() {
-    composer install barryvdh/laravel-debugbar barryvdh/laravel-ide-helper stephenjude/api-test-helper stephenjude/extended-artisan-commands nunomaduro/phpinsights nunomaduro/larastan --dev
+    composer require barryvdh/laravel-debugbar barryvdh/laravel-ide-helper stephenjude/api-test-helper stephenjude/extended-artisan-commands nunomaduro/phpinsights nunomaduro/larastan --dev
 }
