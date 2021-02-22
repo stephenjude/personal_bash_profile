@@ -7,6 +7,10 @@ A collection of [alias](https://github.com/stephenjude/personal_bash_profile/blo
 artisan key:generate
 ```
 
+#### `make` : Alias to `php artisan make:`. Example:
+```bash
+make model User -m 
+```
 
 ####  `install-dev`: Alias that install my must have dev packages to my Laravel project. Example
 
