@@ -2,6 +2,10 @@ artisan(){
     php artisan $1 $2 $3
 }
 
+make(){
+    php artisan make:$1 $2 $3 $4
+}
+
 package-link() {
     composer config repositories.local '{"type": "path", "url": "'$1'"}' --file composer.json
 }
