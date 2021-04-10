@@ -6,6 +6,30 @@ make(){
     php artisan make:$1 $2 $3 $4
 }
 
+test(){
+    php artisan test $1 $2 $3 $4
+}
+
+migrate(){
+    php artisan migrate $1 $2 $3 $4
+}
+
+docs(){
+    php artisan enlighten:export $1 $2 $3 $4
+}
+
+autoload(){
+    composer dump-autoload
+}
+
+update(){
+    composer update
+}
+
+install(){
+    composer install
+}
+
 package-link() {
     composer config repositories.local '{"type": "path", "url": "'$1'"}' --file composer.json
 }
