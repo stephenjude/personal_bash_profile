@@ -12,6 +12,36 @@ artisan key:generate
 make model User -m 
 ```
 
+#### `test` : Alias to `php artisan test`. Example:
+```bash
+test 
+```
+
+#### `migrate` : Alias to `php artisan migrate`. Example:
+```bash
+migrate
+```
+
+#### `docs` : Alias to `php artisan enlighten:export`. Example:
+```bash
+docs 
+```
+
+#### `install` : Alias to `composer install`. Example:
+```bash
+install 
+```
+
+#### `update` : Alias to `composer update`. Example:
+```bash
+update 
+```
+
+#### `autoload` : Alias to `composer dump-autoload`. Example:
+```bash
+autoload 
+```
+
 ####  `install-dev`: Alias that install my must have dev packages to my Laravel project. Example
 
 ```bash
