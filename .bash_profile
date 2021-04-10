@@ -18,10 +18,6 @@ docs(){
     php artisan enlighten:export $1 $2 $3 $4
 }
 
-autoload(){
-    composer dump-autoload
-}
-
 update(){
     composer update
 }
