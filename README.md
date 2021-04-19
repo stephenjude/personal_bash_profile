@@ -55,5 +55,20 @@ composer-link ../simple-query-filter
 ```
 
 ```bash
-composer reqiure stephenjude/simple-query-filter
+composer require stephenjude/simple-query-filter
 ```
+
+#### `fix-style` : Alias that fixes your PHP code style. This requires global installation of php-cs-fixer.
+
+```bash
+composer global require friendsofphp/php-cs-fixer
+```
+##### Examples:
+```bash
+fix-style src
+```
+
+```bash
+fix-style app
+```
+
