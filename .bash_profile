@@ -11,7 +11,11 @@ test(){
 }
 
 migrate(){
-    php artisan migrate $1 $2 $3 $4
+    php artisan migrate
+}
+
+migrate-fresh(){
+    php artisan migrate:fresh
 }
 
 docs(){
