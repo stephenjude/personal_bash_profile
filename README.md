@@ -22,6 +22,11 @@ test
 migrate
 ```
 
+#### `migrate-fresh` : Alias to `php artisan migrate:fresh`. Example:
+```bash
+migrate
+```
+
 #### `docs` : Alias to `php artisan enlighten:export`. Example:
 ```bash
 docs 
