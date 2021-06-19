@@ -32,6 +32,11 @@ migrate
 docs 
 ```
 
+#### `commit` : Alias to `git commit -m "commit message"`. Example:
+```bash
+commit "message" 
+```
+
 #### `install` : Alias to `composer install`. Example:
 ```bash
 install 
