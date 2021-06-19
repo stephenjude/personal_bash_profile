@@ -26,6 +26,18 @@ commit(){
 	git commit -m "'$1'"
 }
 
+push(){
+	git push $1
+}
+
+pull(){
+	git pull $1
+}
+
+fetch(){
+	git fetch $1
+}
+
 update(){
     composer update
 }
