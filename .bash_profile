@@ -22,6 +22,10 @@ docs(){
     php artisan enlighten:export $1 $2 $3 $4
 }
 
+commit(){
+	git commit -m "'$1'"
+}
+
 update(){
     composer update
 }
