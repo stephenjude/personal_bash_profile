@@ -38,6 +38,10 @@ fetch(){
 	git fetch $1
 }
 
+add(){
+	git add .
+}
+
 update(){
     composer update
 }
