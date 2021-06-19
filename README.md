@@ -32,6 +32,11 @@ migrate
 docs 
 ```
 
+#### `add` : Alias to `git add .`. Example:
+```bash
+add
+```
+
 #### `commit` : Alias to `git commit -m "commit message"`. Example:
 ```bash
 commit "message" 
