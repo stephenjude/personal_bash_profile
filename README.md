@@ -37,6 +37,21 @@ docs
 commit "message" 
 ```
 
+#### `push` : Alias to `git push`. Example:
+```bash
+push
+```
+
+#### `pull` : Alias to `git pull`. Example:
+```bash
+pull
+```
+
+#### `fetch` : Alias to `git fetch`. Example:
+```bash
+fetch
+```
+
 #### `install` : Alias to `composer install`. Example:
 ```bash
 install 
